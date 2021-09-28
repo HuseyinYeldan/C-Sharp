@@ -69,9 +69,9 @@ namespace GeometrikSekilCevreFormulleri
             {
                 Console.WriteLine("Üçgeninizin ilk kenarını giriniz: ");
                 double ucgen1 = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Üçgeninizin iki kenarını giriniz: ");
+                Console.WriteLine("Üçgeninizin ikincic kenarını giriniz: ");
                 double ucgen2 = Convert.ToDouble(Console.ReadLine());
-                Console.WriteLine("Üçgeninizin üç kenarını giriniz: ");
+                Console.WriteLine("Üçgeninizin üçüncü kenarını giriniz: ");
                 double ucgen3 = Convert.ToDouble(Console.ReadLine());
 
                 double ucgenformul = ucgen1 * ucgen2 * ucgen3;
