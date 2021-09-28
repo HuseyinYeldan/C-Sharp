@@ -38,11 +38,11 @@ namespace GeometrikSekilCevreFormulleri
             {
                 Dikdörtgen:
                 Console.WriteLine("Dikdörtgeninizin kısa olan kenarının uzunluğunu giriniz: ");
-                double diktortgenkisa = Convert.ToDouble(Console.ReadLine());
+                double dikdortgenkisa = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine("Dikdörtgeninizin uzun olan kenarının uzunluğunu giriniz: ");
-                double diktortgenuzun = Convert.ToDouble(Console.ReadLine());
+                double dikdortgenuzun = Convert.ToDouble(Console.ReadLine());
 
-                if (diktortgenkisa>=diktortgenuzun)
+                if (dikdortgenkisa>=dikdortgenuzun)
                 {
                     Console.WriteLine("");
                     Console.WriteLine("Dikdörtgenin kısa kenarı uzun kenarından yüksek veya eşit bir değere sahip olamaz.");
@@ -53,8 +53,8 @@ namespace GeometrikSekilCevreFormulleri
                    
                 }
 
-                double diktortgenformul = (diktortgenkisa * 2) + (diktortgenuzun * 2);
-                Console.WriteLine("Sonuç: " + diktortgenformul);
+                double dikdortgenformul = (dikdortgenkisa * 2) + (dikdortgenuzun * 2);
+                Console.WriteLine("Sonuç: " + dikdortgenformul);
             }
             else if(formul == 3)
             {
