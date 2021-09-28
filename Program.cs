@@ -2,7 +2,7 @@
 
 namespace PuanHesaplama
 {
-    class Program
+    class PuanHesaplama
     {
         static void Main(string[] args)
         {
